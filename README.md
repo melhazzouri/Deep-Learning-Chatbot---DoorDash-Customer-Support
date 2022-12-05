@@ -5,3 +5,7 @@ In the past few years, chatbots have become wildly popular in the tech and busin
 
 
 ![dinosaur](https://user-images.githubusercontent.com/39967400/205679203-848074b4-0a22-4a91-ad2f-3ca335ae562d.png)
+
+For further details see the notebooks in the repository.
+
+
