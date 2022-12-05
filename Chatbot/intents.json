@@ -1,0 +1,420 @@
+{
+    "intents": [{
+            "tag": "greetings",
+            "patterns": [
+                        "Hi",
+                        "Hi there",
+                        "Hola",
+                        "Hello",
+                        "Hello there",
+                        "Hya",
+                        "Hya there"
+                  ],
+            "responses": [
+                        "Hi! Welcome to DoorDash Customer Support! This is Gabriel, nice to virtually meet you. Please tell me, how may I be helpfully today for you?",
+                        "Welcome to DoorDash Customer Support! My name is Gabriel and I will be helping you today.",
+                        "Hello! Welcome to DoorDash Customer Support! Im Gabriel, how can I assist you today?"
+                  ],
+            "context": [""]
+        },
+        {
+            "tag": "need help",
+            "patterns": [
+                        "I need help with an order",
+                        "Please help me",
+                        "Im chatting for assistance with an order",
+                        "Order help",
+                        "Can you assist me please"
+                  ],
+            "responses": [
+                        "Hi! Welcome to DoorDash Customer Support! This is Gabriel, nice to virtually meet you. Please tell me, how may I be helpfully today for you?"
+                  ],
+            "context": [""]
+        },
+        {
+            "tag": "greeting response",
+            "patterns":[
+                        "My name is Adam",
+                        "This is Adam",
+                        "I am Adam",
+                        "It is Adam",
+                        "My name is Bella",
+                        "This is Bella",
+                        "I am Bella",
+                        "It is Bella"
+                  ],
+            "responses":[
+                        "Great! Hi! How can I help?",
+                        "Good! Hi, how can I help you?",
+                        "Cool! Hello, what can I do for you?",
+                        "OK! Hola, how can I help you?",
+                        "OK! hi, what can I do for you?"
+                  ],
+            "context": [""]
+        },
+        {
+            "tag": "order status",
+            "patterns":[
+                        "Where is my order?",
+                        "Updates on my order please",
+                        "What's the status of my order?",
+                        "when is my order arriving?",
+                        "How long is it going to get my order?",
+                        "I want to know where is my order"
+                  ],
+            "responses":[
+                        "Follow this link to check the status of your order, and contact your Dasher if you have any questions in your account. We can also send you notifications about any important updates regarding your order - just make sure you’ve opted into notifications."],
+            "context": [""]
+        },
+        {
+            "tag": "cancel order",
+            "patterns": [
+                        "Can I cancel my order?",
+                        "How can I cancel my order?",
+                        "Please cancel my order",
+                        "I want to cancel my order",
+                        "I made an order but I do not want it anymore"
+                  ],
+            "responses":[
+                        " We understand sometimes things come up, and we get that! The quickest way to cancel an order is by using the Self-Help function. Follow this link to cancel your order."
+                  ],
+            "context": [""]
+        },
+        {
+            "tag": "instructions",
+            "patterns": [
+                        "My instructions were'nt followed",
+                        "They did not follow my instructions",
+                        "Thats not how I told them to do it",
+                        "Restaurant did not follow what I asked them to do",
+                        "They did not accommodate my instructions "
+                  ],
+            "responses": [
+                        "We apologize that instructions were missed when preparing your order.Keep in mind, restaurants may not be able to accommodate certain special instructions. In these cases, the restaurant may not fulfill your request. Also, some special instructions may incur additional charges. If there are additional charges, DoorDash will revise the order total and send you an updated receipt."]
+                  ,
+            "context" : [""]
+        },
+        {
+            "tag": "missing or incorrect item",
+            "patterns": [
+                        "My order is missing",
+                        "I did not get all my order",
+                        "That is not what I ordered",
+                        "I got something else",
+                        "I ordered something and got something else."
+                  ],
+            "responses":[
+                        " First and foremost, we're sorry! While we strive to make both your order and delivery experience perfect every time, sometimes mistakes happen. And when they do, we're here to make things right.If your order was delivered, but had a missing or incorrect item, the quickest way to get help is by reporting the issue in your DoorDash account and we will refund the missing or incorrect item."
+                  ],
+            "context": [""]
+        },
+        {
+            "tag": "missing order",
+            "patterns": [
+                        "I did not recieve my order?",
+                        "My order is missing",
+                        "I cannot find my order",
+                        "My order is not here",
+                        "I did not get my order",
+                        "I recieved someone else's order",
+                        "Not my order",
+                        "Wrong order",
+                        "Order said delivered but I did not recieve it"
+                  ],
+            "responses": [
+                        "First and foremost, we're sorry! While we strive to make both your order and delivery experience perfect every time, sometimes mistakes happen. And when they do, we're here to make things right. Please follow this link to report the issue in your DoorDash account and a full refund will be credited to your account"
+                  ],
+            "context": [""]
+        },
+        {
+            "tag": "order late",
+            "patterns": [
+                        "My order is late",
+                        "Order is delayed",
+                        "Order is taking a long time",
+                        "Order is taking so long",
+                        "I waited a lot for my order"
+                  ],
+            "responses":[
+                        "We're sorry we couldn't get you your order on-time. We know how important it is to have your food delivered at the expected time. To help resolve this issue, please follow this link to report the late delivery in your DoorDash account "
+                  ],
+            "context": [""]
+        },
+        {
+            "tag": "order quality",
+            "patterns":[
+                        "My food tasted bad?",
+                        "I didnt like the food",
+                        "I didnt enjoy the food",
+                        "Food was cold",
+                        "Food was salty",
+                        "Food was oily",
+                        "Quality is extremly bad"
+                  ],
+            "responses": [
+                        "We're sorry we let you down, but we’re here to help make things right.Follow this link or follow the steps below to report if you were not satisfied with the quality of the food order you received"
+                  ],
+            "context": [""]
+        },
+        {
+            "tag": "add or remove item",
+            "patterns": [
+                        "I want to change something in my order?",
+                        "I want to add an item to my order?",
+                        "I want to remove an item from my order ",
+                        "I want to modify my order",
+                        " I need to order more items"
+                  ],
+            "responses":[
+                        "If the restaurant has not yet processed your order, you can make adjustments by chatting with a support agent"
+                  ],
+            "context": [""]
+        },
+        {
+            "tag": "delivery damaged",
+            "patterns":[
+                        "My order is damaged",
+                        "My delivery is damaged",
+                        "My food was smashed",
+                        "My delivery was opened",
+                        "My order was ripped apart"
+                  ],
+            "responses": [
+                        "We apologize if the food arrived to you not as intended. A full refund will be credited to your account."
+                  ],
+            "context": [""]
+        },
+        {
+            "tag": "duplicated order",
+            "patterns": [
+                        "I duplicated my order by mistake?",
+                        "I ordered my order twice?",
+                        "My order is duplicated"
+                  ],
+            "responses": [
+                        "If you placed an order by accident you can cancel the order through DoorDash’s self-help tool. If the merchant has already confirmed the order, however, you will not be able to cancel the order."
+                  ],
+            "context": [""]
+        },
+        {
+            "tag": "restuarant canceled",
+            "patterns": [
+                        "My order was canceled?",
+                        "You canceled my order?",
+                        "Why did you cancel my order"
+                  ],
+            "responses": [
+                        "Orders may be cancelled for a variety of reasons, such as: restaurant is closed, restaurant is out of an item, restaurant is no longer accepting takeout orders. While we never want a situation where your order is cancelled by a party other than you, if it is, we will ensure you receive a full credit or refund."
+                  ],
+            "context": [""]
+        },
+        {
+            "tag": "order reciept",
+            "patterns":[
+                        "where is my reciept?",
+                        "where can I find my reciept?",
+                        "Can you send me my reciept",
+                        "I want my reciept"
+                  ],
+            "responses":[
+                        "You can access your receipt for a given order through the DoorDash website or mobile app"
+                  ],
+            "context": [""]
+        },
+        {
+            "tag": "charged extra",
+            "patterns":[
+                        "I was charged extra",
+                        "I was charged more",
+                        "I paid more than my order",
+                        "why did you charge me extra"
+                  ],
+            "responses":[
+                        " We apologize for any inconvinience. Please follow the link to report the extra charge and we will send you a new reciept that reflects your order."
+                  ],
+            "context": [""]
+        },
+        {
+            "tag": "need help",
+            "patterns":  [
+                        "I want to report a safety issue",
+                        "Emergency",
+                        "My dasher was not safe",
+                        "I was scared"
+                  ],
+            "responses": [
+                        "PLEASE CALL 911 FIRST AND THEN CALL CUSTOMER SUPPORT TO REPORT YOUR INCIDENT."
+                  ],
+            "context": [""]
+        },
+        {
+            "tag": "dashpass cancel",
+            "patterns": [
+                        "I want to cancel my DashPass subscription",
+                        "I dont want my Dashpass Subscription anymore",
+                        "Please cancel my subscription",
+                        "Can I cancel my dashpass",
+                        "how tocancel my dashpass?"
+                  ],
+            "responses": [
+                        "Thanks for your loyalty as a DashPass subscriber, we’re sad to see you go! You can cancel your DashPass subscription at any time using the DoorDash app or website. To avoid being charged for the next subscription period, you must cancel at least 1 day before the next-scheduled subscription renewal date. After canceling, your DashPass benefits will be valid through the end of the current billing period.  If you cancel during a trial period, your benefits will be terminated immediately."
+                  ],
+            "context": [""]
+        },
+        {
+            "tag": "dashpass inquiry",
+            "patterns": [
+                        "What is DashPass?",
+                        "Can you tell me about DashPass",
+                        "How much does it cost?"
+                  ],
+            "responses":[
+                        "DashPass is a subscription service that offers unlimited deliveries from thousands of eligible restaurants with $0 delivery fee on orders over $12."
+                  ],
+            "context": [""]
+        },
+        {
+            "tag": "account update",
+            "patterns":[
+                        "I want to update my account",
+                        "I want to cahneg my address",
+                        "I need to update my phone number",
+                        "I need to add a new email address"
+                  ],
+            "responses": [
+                        "You can change personal information anytime in your account. To keep your account information secure, you will be required to validate your account ownership through a 2-Factor Authentication process"
+                  ],
+            "context": [""]
+        },
+        {
+            "tag": "account verify",
+            "patterns": [
+                        "I want to verify my account",
+                        "How can I verify my account"
+                  ],
+            "responses": [
+                        "You can change personal information anytime in your account. To keep your account information secure, you will be required to validate your account ownership through a 2-Factor Authentication process"
+                  ],
+            "context": [""]
+        },
+        {
+            "tag": "compliment",
+            "patterns":[
+                        "I liked your service.",
+                        "Your dasher was nice.",
+                        "Your driver is polite.",
+                        "Im happy with the order I made and the delivery.",
+                        "Best service ever.",
+                        "Im satisfied with the service.",
+                        "You are so nice."
+                  ],
+            "responses":[
+                        "Thank you for being one of our loyal customers. We appreciate your feedback so much and we are proud that you have had a great experience with our service."
+                  ],
+            "context": [""]
+        },
+        {
+            "tag": "more help",
+            "patterns": [
+                        "I need more help",
+                        "I need more assistance",
+                        "That did not answer my question",
+                        "I need to speak to an agent",
+                        "I still have an issue",
+                        "I still have a problem",
+		        "My issue is not resolved"
+
+                  ],
+            "responses":[
+                        "Thanks for chatting with me today. I see you are still having an issue. A Customer Care specielist will be in contact with you shortly"
+                  ],
+            "context": [""]
+        },
+        {
+            "tag": "Thanks",
+            "patterns":[
+                        "OK thank you",
+                        "OK thanks",
+                        "OK",
+                        "Thanks",
+                        "Thank you",
+                        "That's helpful"
+                  ],
+            "responses": [
+                        "No problem! Thank you for using DoorDash",
+                        "Happy to help! Thank you for being a loyal Customer",
+                        "Any time! Glad you are satisfied with our service",
+                        "My pleasure",
+                        "You are most welcome"
+                  ],
+            "context": [""]
+        },
+        {
+            "tag": "understand query",
+            "patterns":[
+                        "Do you understand what I am saying",
+                        "Do you understand me",
+                        "Do you know what I am saying",
+                        "Do you get me",
+                        "Comprendo",
+                        "Know what I mean"
+                  ],
+            "responses": [
+                        "Well I would have this job if I did not would I?",
+                        "I read you loud and clear!",
+                        "I do in deed!"
+                  ],
+            "context": [""]
+        },
+        {
+            "tag": "dasher complaint",
+            "patterns":[
+                        "My dasher was rude",
+                        "My driver was not polite",
+                        "Dasher was loud",
+                        "My dasher made me walk",
+                        "My driver left my order somewhere else",
+                        "Complain about my dasher",
+                        "My driver gave me attitute",
+                        "My dasher was inappropriate"
+
+                  ],
+            "responses": [
+                        "I understand your frustration with the service you have recieved. This isn't the experience we want for you. I will be taking the appropriate actions for feedback on the dasher."
+                  ],
+            "context": [""]
+        },
+        {
+            "tag": "swearing",
+            "patterns":  [
+                        "fuck off",
+                        "fuck",
+                        "Bitch",
+                        "Shut the fuck up!",
+                        "twat",
+                        "shit"
+                  ],
+            "responses": [
+                        "Please do not swear",
+                        "I will be happy to help you without the swearing",
+                        "I understand you are frustrated but please do not swear."
+                  ],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns":[
+                        "Bye",
+                        "Adios",
+                        "See you later",
+                        "Goodbye"
+                  ],
+            "responses":[
+                        "Thanks for getting in touch with Doordash support. If you have any further questions, feel free to contact us back. Thanks again. Bye and please continue to wear your best smile everyday. Have a wonderful day and be safe always. ",
+                        "Thanks for being a loyal customer. Have a great day and stay safe.",
+                        "Feel free to contact us if you have any further questions or concerns. Bye now!"
+                  ],
+            "context": [""]
+        }
+    ]
+}
