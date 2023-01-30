@@ -10,6 +10,18 @@ In the past few years, chatbots have become wildly popular in the tech and busin
 ![APP](https://user-images.githubusercontent.com/39967400/205729401-2d6f1102-d2ea-4976-a596-d93a0237d137.png)
 
 
+## Requirements
+1- TensorFlow    
+2- Flask
+
+## Execution
+To run this Bot, first run the # train.py file to train the model. This will generate a file named chatbot_model.h5
+This is the model which will be used by the Flask REST API to easily give feedback without the need to retrain.
+After running train.py, next run the app.py to initialize and start the bot.
+To add more terms and vocabulary to the bot, modify the intents.json file and add your personalized words and retrain the model again.
+
+
+
 For further details see the notebooks in the repository.
 
 
