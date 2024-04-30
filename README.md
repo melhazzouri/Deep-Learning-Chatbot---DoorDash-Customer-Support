@@ -17,13 +17,6 @@ After running chatbot-training.py, next run the flask-dep.py to initialize and s
 To add more terms and vocabulary to the bot, modify the intents.json file and add your personalized words and retrain the model again.
 
 
-![image](https://user-images.githubusercontent.com/39967400/205730983-4a8c5415-d7ca-4444-aeda-0031489e5afa.png)
-
-
-
-![APP](https://user-images.githubusercontent.com/39967400/205729401-2d6f1102-d2ea-4976-a596-d93a0237d137.png)
-
-
 For further details see the notebooks in the repository.
 
 
