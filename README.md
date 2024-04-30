@@ -1,6 +1,9 @@
 # Chatbot: Development and Deployment
 
-In the past few years, chatbots have become wildly popular in the tech and business sectors. These intelligent bots are so adept at imitating natural human languages and conversing with humans, that companies across various industrial sectors are adopting them. From e-commerce firms to healthcare institutions, everyone seems to be leveraging this nifty tool to drive business benefits. In this project, a Customer Support Chatbot was built and deployed. The Artificial Intelligent Chatbot was trained using Deep Learning algorithims and deployed using the Flask method. 
+
+In recent years, the surge in popularity of chatbots has transformed the landscape of technology and business. These intelligent conversational agents have mastered the art of mimicking human language, prompting widespread adoption across various industries. From e-commerce giants to healthcare providers, organizations are harnessing the power of chatbots to enhance customer interactions and drive business growth.
+
+This project focuses on the development and deployment of a Customer Support Chatbot. Leveraging advanced Artificial Intelligence techniques, the chatbot was trained using Deep Learning algorithms and deployed using Flask.
 
 
 
@@ -10,11 +13,9 @@ In the past few years, chatbots have become wildly popular in the tech and busin
 2- Flask
 
 ## Execution
-To run this Bot, first run the chatbot-training.py file to train the model. This will generate a file named chatbotmodel.h5
-This is the model which will be used by the Flask REST API to easily give feedback without the need to retrain.
-After running chatbot-training.py, next run the flask-dep.py to initialize and start the bot.
+To run the chatbot, begin by executing the chatbot-training.py file to train the model. This will generate a file named chatbotmodel.h5, which serves as the model for the Flask REST API. After training the model, run flask-dep.py to initialize and start the chatbot.
 
-To add more terms and vocabulary to the bot, modify the intents.json file and add your personalized words and retrain the model again.
+To enhance the chatbot's capabilities, modify the intents.json file to include additional terms and vocabulary. Then, retrain the model to incorporate these changes.
 
 
 For further details see the notebooks in the repository.
